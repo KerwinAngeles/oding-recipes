@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    list-style: none;
+    background-color: #023e8a;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+.img{
+    height: auto;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.title,
+header{
+    text-align: center;
+}
+
+p,
+h1,
+section h3{
+    margin: 40px;
+}
