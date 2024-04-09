@@ -1,16 +1,25 @@
 *{
     font-family: 'Courier New', Courier, monospace;
-    color: white;
     list-style: none;
-    background-color: #023e8a;
 }
 
-a{
+
+body{
+    color: white;
+    background-color: purple;
     text-decoration: none;
 }
 
-a:hover{
-    color: yellowgreen;
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+header a {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .img{
@@ -19,13 +28,55 @@ a:hover{
     border-radius: 5px;
 }
 
-.title,
-header{
+.title{
+    color: white;
     text-align: center;
 }
 
 p,
 h1,
-section h3{
+h3{
     margin: 40px;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+.card{
+    max-width: 250px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border-radius: 10px;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-body{
+    background-color: #fff;
+    color: purple;
+}
+
+
+.images{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
