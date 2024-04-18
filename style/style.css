@@ -1,13 +1,20 @@
 *{
     font-family: 'Courier New', Courier, monospace;
-    list-style: none;
+    box-sizing: border-box;
 }
 
 
 body{
     color: white;
-    background-color: purple;
+    background-color: #20252C;
     text-decoration: none;
+}
+
+.container{
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 a{
@@ -22,30 +29,30 @@ header a {
     font-weight: bold;
 }
 
+figure{
+    display: flex;
+    justify-content: center;
+}
+
 .img{
-    height: auto;
     width: 250px;
     border-radius: 5px;
 }
 
 .title{
     color: white;
-    text-align: center;
 }
 
-p,
 h1,
 h3{
-    margin: 40px;
+    display: flex;
+    justify-content: center;
 }
-
-
 
 .cards{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .cards a{
@@ -79,4 +86,13 @@ h3{
     width: 250px;
     height: 250px;
     object-fit: cover;
+}
+
+
+li{
+    margin-top: 10px;
+}
+
+.paragraph{
+    margin: 30px;
 }
